@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Create your Opay account and start making secure payments">
+  <meta name="keywords" content="signup, create account, banking, digital payment">
+  <title>Sign Up - Opay</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/shared.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header" role="banner">
+    <div class="header-container">
+      <div class="header-content">
+        <a href="../index.html" class="logo">Opay</a>
+        <nav class="nav-links" role="navigation" aria-label="Main navigation">
+          <a href="../index.html">Home</a>
+          <a href="../faq/index.html">FAQ</a>
+          <a href="../terms-of-service/index.html">Terms</a>
+          <a href="../privacy-policy/index.html">Privacy</a>
+        </nav>
+        <div class="user-menu">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb" aria-label="Breadcrumb">
+    <div class="header-container">
+      <a href="../index.html">Home</a> / <span aria-current="page">Sign Up</span>
+    </div>
+  </div>
+  <!-- MAIN CONTENT -->
+  <main class="signup-container">
+    <div class="signup-form">
+      <div class="signup-header">
+        <h1>Create Account</h1>
+        <p>Join Opay for seamless digital payments</p>
+      </div>
+
+      <div class="success-message" id="successMessage">
+        ✅ Account created successfully! Redirecting...
+      </div>
+
+      <form id="signupForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" class="form-control" placeholder="John" required />
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Doe" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" class="form-control" placeholder="+234 801 234 5678" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password *</label>
+          <input type="password" id="password" name="password" class="form-control" placeholder="At least 8 characters" required />
+        </div>
+
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password *</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" class="form-control" placeholder="Confirm your password" required />
+        </div>
+
+        <div class="form-group">
+          <label for="country">Country *</label>
+          <select id="country" name="country" class="form-control" required>
+            <option value="">Select a country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Kenya">Kenya</option>
+            <option value="South Africa">South Africa</option>
+          </select>
+        </div>
+
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="terms" name="terms" class="form-checkbox" required>
+          <label for="terms" class="checkbox-label">I agree to the <a href="../terms-of-service/">Terms of Service</a></label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Create Account</button>
+      </form>
+
+      <div class="signup-footer">
+        <p>Already have an account? <a href="../logIn/">Log In</a></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">Opay</div>
+          <p class="footer-logo-text">Secure financial banking services for everyone.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../faq/">FAQ</a></li>
+            <li><a href="../terms-of-service/">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="../privacy-policy/">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Opay. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
