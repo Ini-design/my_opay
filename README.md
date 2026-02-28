@@ -35,7 +35,7 @@ This project simulates a digital payment platform landing page with interactive 
  - Vanilla JavaScript – Interactivity
  - Font Awesome – Icons
  - JSON-LD (Schema.org) – SEO Structured Data
-
+```bash
 # Project Structure
 opay-clone/
  │
@@ -59,6 +59,7 @@ opay-clone/
  │   └── index.html
  │
  └── README.md
+```
 # Features Breakdown
 1️⃣ Responsive Navigation
 
