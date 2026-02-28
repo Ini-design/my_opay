@@ -8,43 +8,25 @@ A modern, responsive frontend-only clone of OPay’s digital payment platform bu
 
 This project simulates a digital payment platform landing page with interactive UI components including:
 
-  Responsive Navigation Bar
-  
-  Hero Section
-  
-  Features Section
-  
-  Statistics Section
-  
-  Transfer Fee Calculator
-  
-  Testimonials Carousel
-  
-  Sign-Up Modal
-  
-  Transaction Modal
-  
-  Live Chat Widget
-  
-  Cookie Consent Banner
-  
-  Toast Notifications
-  
-  Scroll-to-Top Button
-  
-  Dark Mode Toggle
-  
-  The goal of this project is to demonstrate:
-  
-  Frontend architecture skills
-  
-  UI/UX implementation
-  
-  JavaScript interactivity
-  
-  Accessibility best practices
-  
-  SEO optimization techniques
+ - Responsive Navigation Bar
+ - Hero Section
+ - Features Section
+ - Statistics Section
+ - Transfer Fee Calculator 
+ - Testimonials Carousel
+ - Sign-Up Modal 
+ - Transaction Modal 
+ - Live Chat Widget 
+ - Cookie Consent Banner 
+ - Toast Notifications
+ - Scroll-to-Top Button
+ - Dark Mode Toggle
+ - The goal of this project is to demonstrate:
+ - Frontend architecture skills
+ - UI/UX implementation
+ - JavaScript interactivity
+ - Accessibility best practices
+ - SEO optimization techniques
 
 # Tech Stack
 
